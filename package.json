@@ -1,6 +1,6 @@
 {
   "name": "get-sitemap-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get fetch parse crawl sitemap links recursively.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
