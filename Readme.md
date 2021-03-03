@@ -31,3 +31,16 @@ import GetSitemapLinks from "get-sitemap-links";
   console.log(array.length);
 })();
 ```
+
+## Options
+
+```typescript
+(async () => {
+  const array = await GetSitemapLinks("https://nexload.ir/wp-sitemap.xml", {
+    filterIndexes: "posts",
+    // Here we say we just want indexes that includes "posts" string
+    // This option only works when givin sitemap link is IndexPage like example.com/sitemap.xml
+  });
+  console.log(array.length);
+})();
+```
