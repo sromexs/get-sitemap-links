@@ -9,7 +9,7 @@ npm i get-sitemap-links
 With Node.js:
 
 ```js
-const GetSitemapLinks = require("get-sitemap-links)";
+const GetSitemapLinks = require("get-sitemap-links").default;
 
 (async () => {
   const array = await GetSitemapLinks(
