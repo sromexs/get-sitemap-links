@@ -1,0 +1,38 @@
+{
+  "name": "get-sitemap-links",
+  "version": "1.0.0",
+  "description": "get fetch parse crawl sitemap links recursively.",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sromexs/get-sitemap-links.git"
+  },
+  "keywords": [
+    "sitemap",
+    "fetch",
+    "urls",
+    "parse",
+    "crawl"
+  ],
+  "author": "Sadra Bahrami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sromexs/get-sitemap-links/issues"
+  },
+  "homepage": "https://github.com/sromexs/get-sitemap-links#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "tsc": "^1.20150623.0"
+  }
+}
