@@ -2,7 +2,6 @@
   "name": "get-sitemap-links",
   "version": "1.0.0",
   "description": "get fetch parse crawl sitemap links recursively.",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepublish": "tsc",
