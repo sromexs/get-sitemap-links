@@ -3,7 +3,7 @@
 Using npm:
 
 ```shell
-`npm i get-sitemap-links`
+npm i get-sitemap-links
 ```
 
 With Node.js:
