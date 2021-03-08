@@ -1,3 +1,7 @@
+## Get Sitemap Links
+
+This tool get, fetch, crawl, sitemap pages recursively and fetch all links in between `<loc>` tag. This app created by typescript and usable in both node.js and typescript apps. I hope you enjoy working with this app.
+
 ## Installation
 
 Using npm:
