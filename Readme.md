@@ -10,6 +10,25 @@ Using npm:
 npm i get-sitemap-links
 ```
 
+## Example
+
+This is simple usage of the this tool we can get all links of the sitemap url :
+
+```typescript
+const array = await GetSitemapLinks(
+  "https://example.com/sitemap.xml"
+);
+
+// Output :
+// array = [
+//      "https://example.ir/post/1",
+//      "https://example.ir/post/2",
+//      "https://example.ir/post/3",
+//      "https://example.ir/post/4",
+//      ...
+//  ]
+```
+
 With Node.js:
 
 ```js
