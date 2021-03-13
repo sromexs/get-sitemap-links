@@ -1,11 +1,11 @@
 {
   "name": "get-sitemap-links",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "get fetch parse crawl sitemap links recursively.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "prepublish": "tsc",
   "scripts": {
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
