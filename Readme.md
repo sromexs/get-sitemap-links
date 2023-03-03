@@ -6,11 +6,11 @@ Get Sitemap Links
     <img width="400px" src="https://user-images.githubusercontent.com/48912836/111001692-7882b900-8399-11eb-8a79-2e869864ee0d.jpg" alt="get sitemap links"></img>
 </p>
 
-This tool get, fetch, crawl, sitemap pages recursively and fetch all links in between `<loc>` tag. This app created by typescript and usable in both node.js and typescript apps. I hope you enjoy working with this app.
+`Get Sitemap Links` is a TypeScript library that fetches all links recursively from a sitemap page. It can be used in both Node.js and TypeScript applications.
 
 ## Installation
 
-Using npm:
+You can install the package using npm:
 
 ```shell
 npm i get-sitemap-links
