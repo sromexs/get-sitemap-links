@@ -32,7 +32,6 @@ const GetSitemapLinks = async (url: string, options: IOptions = {}): Promise<str
   }
 
   const { filterIndexes } = options;
-
   if (filterIndexes) {
     indexes = indexes.filter((e) => e.includes(filterIndexes));
   }
